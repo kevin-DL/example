@@ -1,0 +1,25 @@
+.navbar {
+  align-items: center;
+  background-color: blue;
+  color: white;
+  display: flex;
+  height: 3rem;
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+
+.navbar .links {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar .links a {
+  color: white;
+  margin: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar .links a:hover {
+  background-color: red;
+}
